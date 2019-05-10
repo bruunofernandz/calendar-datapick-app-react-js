@@ -1,0 +1,48 @@
+
+.DatePickerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: inFade 3s;
+}
+.Calendar {
+    box-shadow: 0px 5px 5px 0px;
+    border-radius: 10px;
+    width: 600px;
+}
+#ulElement{
+    width: 400px;
+    border: 0px;
+    background: #EEE;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .Calendar{
+        width: 300px;
+    }
+}
+li{
+    list-style: none;
+    color: #666;
+}
+.text {
+    color: #FFF;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: 'Arial Black', Times, sans-serif
+}
+hr{
+    width: 300px;
+    color: #666;
+}
+
+@keyframes inFade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
